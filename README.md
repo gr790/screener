@@ -30,3 +30,5 @@ process more profitable and enjoyable.
 [screener]: https://www.screener.in
 [react]: https://facebook.github.io/react/docs/tutorial.html
 [zip]: https://github.com/Mittal-Analytics/screener.in/archive/master.zip
+
+I don't owns this Repository, it is here because I am fed up with server side programminng and want to try my hands in UI.
