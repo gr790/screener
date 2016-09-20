@@ -20,7 +20,7 @@ function reqInfo(req) {
 var options = {
   autoRewrite: true,
   changeOrigin: true,
-  target:'http://www.screener.in'
+  target:'http://192.168.56.102:8000'
 };
 var proxy = httpProxy.createProxyServer(options);
 proxy.on('error', onError);
@@ -45,7 +45,7 @@ http.createServer(function(req, res) {
   } else {
     proxy.web(req, res);
   }
-}).listen(8000, '192.168.56.102');
+}).listen(8000, '192.168.56.102'); /* My intention is to running this server on local RHEL VM */
 
 console.log([
     "Ready to accept requests.",
